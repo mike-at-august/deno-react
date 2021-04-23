@@ -1,0 +1,14 @@
+{
+  "name": "begin-app",
+  "version": "0.0.0",
+  "description": "SSR with Deno",
+  "scripts": {
+    "_test": "deno test test",
+    "lint": "deno fmt src && deno fmt test",
+    "start": "npx arc sandbox"
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^3.1.3",
+    "mkdirp": "^1.0.4"
+  }
+}
